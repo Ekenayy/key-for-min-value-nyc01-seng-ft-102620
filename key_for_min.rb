@@ -12,12 +12,13 @@ lowest_value = 1000000
 if name_hash.empty?
  return nil
 else 
- name_hash.each do |hash_key, hash_value|
-  if lowest_value > hash_value
-    lowest_value = hash_key
+  name_hash. do
+ if lowest_value == 0 || value < lowest_value
+      lowest_value = value 
+      lowest_key = key
     end
   end
-  end
-   lowest_value
+  lowest_key
+endlue
 end 
 
