@@ -1,3 +1,5 @@
+require 'pry'
+
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 
@@ -6,7 +8,6 @@
 #If value of k/v pair > variable, update the variable to that k/v pair
 #If the hash is empty it should return nil 
 
-require 'pry'
 
 def key_for_min_value(name_hash)
   lowest_value = 0
