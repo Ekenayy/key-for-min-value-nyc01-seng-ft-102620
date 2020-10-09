@@ -7,12 +7,10 @@
 #If the hash is empty it should return nil 
 
 def key_for_min_value(name_hash)
-lowest_value = 1000000
-
 if name_hash.empty?
  return nil
 else 
-  name_hash. do
+  name_hash.each do
  if lowest_value == 0 || value < lowest_value
       lowest_value = value 
       lowest_key = key
